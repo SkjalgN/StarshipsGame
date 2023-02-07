@@ -9,6 +9,9 @@ public class DesktopLauncher {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
 		config.setForegroundFPS(60);
 		config.setTitle("exercise2");
-		new Lwjgl3Application(new Task1(), config);
+		config.setWindowedMode(300, 640);
+		new Lwjgl3Application(new SpaceShooterGame(), config);
+
+
 	}
 }
