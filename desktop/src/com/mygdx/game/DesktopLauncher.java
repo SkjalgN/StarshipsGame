@@ -9,7 +9,7 @@ public class DesktopLauncher {
 	public static void main (String[] arg) {
 		Lwjgl3ApplicationConfiguration config = new Lwjgl3ApplicationConfiguration();
 		config.setForegroundFPS(60);
-		config.setTitle("exercies2");
+		config.setTitle("exercise2");
 		new Lwjgl3Application(new MyGdxGame(), config);
 	}
 }
