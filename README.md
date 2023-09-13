@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-
+    <img src="assets/playerShip2_blue.png" alt="Logo" height="80">
   <h3 align="center">Starship game</h3>
 
   <p align="center">
